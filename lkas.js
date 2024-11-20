@@ -6,6 +6,7 @@ function load_home () {
     })
     .catch((error) => {
         console.warn(error);
+        
     });
 }
 load_home();
